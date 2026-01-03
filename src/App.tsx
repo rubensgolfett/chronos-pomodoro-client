@@ -1,27 +1,30 @@
 import "./styles/theme.css";
 import "./styles/global.css";
 import { Container } from "./components/Container";
-import { HomeIcon, SettingsIcon, SunIcon, TimerIcon } from "lucide-react";
-import { Heading } from "./components/Heading";
+// import { SunIcon } from "lucide-react";
+import { Logo } from "./components/Logo";
+import { Menu } from "./components/Menu";
+import { CountDown } from "./components/CountDown";
+
 
 export function App() {
   return (
     <>
       <Container>
-        <TimerIcon />
-        <Heading>Chronos</Heading>
+        <Logo/>
       </Container>
 
       <Container>
-        <HomeIcon />
+        <Menu/>
       </Container>
 
       <Container>
-        <SettingsIcon />
+        <CountDown/>
       </Container>
-      <Container>
+
+      {/* <Container>
         <SunIcon />
-      </Container>
+      </Container> */}
     </>
   );
 }
