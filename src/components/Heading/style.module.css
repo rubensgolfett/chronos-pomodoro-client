@@ -1,0 +1,7 @@
+.heading {
+    margin: 2.3rem 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 2.4rem;
+}
